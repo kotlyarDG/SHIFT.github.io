@@ -780,7 +780,7 @@ body {
 
 .scope {
   padding: 102px 10px 149px 10px;
-  background: #131313 url("../../images/system_img/bg-scope.png") left 40px no-repeat;
+  background: #131313 url("../images/system_img/bg-scope.png") left 40px no-repeat;
 }
 
 .scope__container {
@@ -840,7 +840,7 @@ body {
   display: inline-block;
   width: 8px;
   height: 14px;
-  background: url("../../images/system_img/scope-btn.svg");
+  background: url("../images/system_img/scope-btn.svg");
   margin: 0 0 0 7px;
   -webkit-transform: translate(0, 2px);
       -ms-transform: translate(0, 2px);
