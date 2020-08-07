@@ -1,33 +1,277 @@
 <!DOCTYPE html>
 
 <html lang="ru">
-	<head>
-		<!-- Tittle -->
-		<title>Tittle</title>
 
-		<!-- Кодировка -->
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<head>
+	<!-- Tittle -->
+	<title>Tittle</title>
 
-		<!-- Настройки вьюпорта для адекватного адаптива -->
-		<meta name="viewport" content="width=divice-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- Кодировка -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
-		<!-- Подключение CSS файлов -->
-		<link rel="stylesheet"	href="css/style.css" />
-		
-	</head>
-	<body>
-		<!-- Внешняя оболочка -->
-		<div class="wrapper">
-			
-		</div>
-		
+	<!-- Настройки вьюпорта для адекватного адаптива -->
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-		<!-- Подключение JS файлов -->
-		<!-- Jquery -->
-		<script src="js/jquery-3.5.0.min.js"></script>
+	<!-- Подключение CSS файлов -->
+	<link rel="stylesheet" href="css/style.css" />
 
-		<!-- Main script file -->
-		<script src="js/script.js"></script>
-	</body>
+</head>
+
+<body>
+	<!-- Внешняя оболочка -->
+	<div class="wrapper">
+		<div class="main-video"></div>
+
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="images/system_img/logo.svg" alt="Logo">
+				</div>
+				<nav class="header__nav">
+					<ul class="menu">
+						<li class="menu__item"><a href="#">Главная</a></li>
+						<li class="menu__item"><a href="#">О компании</a></li>
+						<li class="menu__item"><a href="#">Отрасли</a></li>
+						<li class="menu__item"><a href="#">Персонализация</a></li>
+						<li class="menu__item"><a href="#">Партнеры</a></li>
+						<li class="menu__item"><a href="#">Тарифы</a></li>
+						<li class="menu__item"><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<section class="company">
+			<div class="company__container">
+				<div class="company__info about">
+					<div class="about__info">
+						<h2 class="about__title title">О компании</h2>
+						<p class="about__text">Увеличивайте свои продажи через персонализацию Узнайте предпочтения ваших
+							клиентов и работайте с ними через персонализированную рекламу</p>
+					</div>
+					<div class="about__slider slider-about">
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/01.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/02.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/03.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/01.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/02.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/03.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/01.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 1</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/02.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 2</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+
+						<div class="slider-about__slide slide-about">
+							<div class="slide-about__body slide-about__body--l">
+								<div class="slide-about__tittle">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+							<div class="slide-about__img">
+								<img src="images/content_img/about/03.jpg" alt="">
+							</div>
+							<div class="slide-about__body">
+								<div class="slide-about__title">Заголовок 3</div>
+								<p class="slide-about__text">Всех посетителей и проходящих мимо людей - мы цифровизируем и
+									создаем виртуальные профили с их предпочтениями и статусами</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="company__functions functions">
+					<h2 class="functions__title title">Функции</h2>
+					<div class="functions__items">
+						<div class="functions__column">
+							<div class="functions__half-column">
+								<div class="functions__item functions__item--small">
+									<img src="images/content_img/about/09.jpg" alt="">
+									<p>Заправки</p>
+								</div>
+								<div class="functions__item functions__item--small">
+									<img src="images/content_img/about/04.jpg" alt="">
+									<p>Сотовая связь</p>
+								</div>
+							</div>
+							<div class="functions__item functions__item--v2">
+								<img src="images/content_img/about/08.jpg" alt="">
+								<p>Рестораны</p>
+							</div>
+						</div>
+						<div class="functions__column">
+							<div class="functions__row">
+								<div class="functions__item functions__item--small">
+									<img src="images/content_img/about/07.jpg" alt="">
+									<p>Заводы</p>
+								</div>
+								<div class="functions__item functions__item--small">
+									<img src="images/content_img/about/05.jpg" alt="">
+									<p>Автомастерские</p>
+								</div>
+							</div>
+							<div class="functions__item functions__item--g2">
+								<img src="images/content_img/about/06.jpg" alt="">
+								<p>Кофейни</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="scope">
+			<div class="scope__container">
+				<div class="scope__info">
+					<h2 class="scope__title title">Наши возможности</h2>
+					<p class="scope__text">Благодаря <span>Shift.studio</span> Ваш бизнес выйдет на новый уровень. Бла бла
+						бла бла Бла бла бла бла Бла бла бла бла Бла бла бла.</p>
+					<a href="#" class="scope__btn"><span>Персонализация</span></a>
+				</div>
+				<div class="scope__wrapper">
+					<div class="scope__items">
+						<div class="scope__item item-scope">
+							<div class="item-scope__img"><img src="images/system_img/logo-radar.svg" alt=""></div>
+							<div class="item-scope__body">
+								<p class="item-scope__title">Shift.radar</p>
+								<p class="item-scope__text">Бла бла бла бла Бла бла бла бла Бла бла бла бла Бла бла бла бла Бла
+									бла
+									бла бла Бла бла бла бла</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- Подключение JS файлов -->
+	<!-- Jquery -->
+	<script src="js/jquery-3.5.0.min.js"></script>
+
+	<script src="js/slick.min.js"></script>
+
+	<!-- Main script file -->
+	<script src="js/script.js"></script>
+</body>
 
 </html>

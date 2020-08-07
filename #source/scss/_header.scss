@@ -1,3 +1,77 @@
-.header{
-	
+.header {
+	padding: 33px 10px 43px 10px;
+	border-bottom: 5px solid #131313;
+	position: relative;
+	z-index: 100;
+	&__container {
+		max-width: 1270px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		position: relative;
+		z-index: 3;
+	}
+
+	&__nav {
+		@media (max-width: $sm) {
+			position: absolute;
+			background-color: #fff;
+			z-index: 2;
+			top: 112px;
+			left: 0;
+			width: 100vw;
+			padding: 10px;
+
+			transition: all 0.5s ease;
+			transform: translate(100%, 0);
+			opacity: 0;
+
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+	}
+}
+.menu {
+	display: flex;
+	&__item {
+		padding: 7px 26px;
+		border-radius: 10px;
+		transition: 0.2s;
+
+		@media (min-width: $sm) {
+			&:hover {
+				background-color: $dark;
+
+				a {
+					color: #fff;
+				}
+			}
+		}
+
+		@media (max-width: $md) {
+			padding: 7px 13px;
+		}
+
+		a {
+			color: $dark;
+		}
+
+		@media (max-width: $sm) {
+			margin: 0 0 10px 0;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	@media (max-width: $sm) {
+		display: block;
+	}
 }

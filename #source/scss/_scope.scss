@@ -1,0 +1,84 @@
+.scope {
+	padding: 102px 10px 149px 10px;
+	background: $dark url("../../images/system_img/bg-scope.png") left 40px no-repeat;
+	&__container {
+		display: flex;
+	}
+
+	&__info {
+		flex: 0 1 455px;
+		padding: 75px 0 0 0;
+		margin: 0 0 0 200px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	&__title {
+		max-width: 455px;
+	}
+
+	&__text {
+		max-width: 285px;
+		align-self: flex-start;
+		margin: 70px 0 0 0;
+		font-size: 24px;
+		line-height: 29px;
+		span {
+			font-weight: bold;
+		}
+	}
+
+	&__btn {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 20px;
+
+		color: #131313;
+		padding: 10px 20px;
+		border: 2px solid #131313;
+		border-radius: 49px;
+
+		margin: 80px 0 0 0;
+
+		span {
+			&:after {
+				content: "";
+				display: inline-block;
+				width: 8px;
+				height: 14px;
+				background: url("../../images/system_img/scope-btn.svg");
+				margin: 0 0 0 7px;
+				transform: translate(0, 2px);
+			}
+		}
+	}
+
+	&__wrapper {
+		color: #fff;
+		flex: 0 1 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__items {
+		max-width: 400px;
+	}
+
+	&__item {
+	}
+}
+
+.item-scope {
+	&__img {
+	}
+
+	&__body {
+	}
+
+	&__title {
+	}
+
+	&__text {
+	}
+}
