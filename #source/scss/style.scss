@@ -47,6 +47,11 @@ body {
 @import "header";
 @import "burger";
 
+.myvideo {
+	width: 100vw;
+	height: 100vh;
+}
+
 @import "company";
 @import "scope";
 @import "cases";

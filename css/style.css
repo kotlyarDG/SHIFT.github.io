@@ -279,6 +279,11 @@ body {
   }
 }
 
+.myvideo {
+  width: 100vw;
+  height: 100vh;
+}
+
 .company {
   padding: 72px 10px 111px 10px;
 }
