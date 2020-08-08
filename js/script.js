@@ -18,6 +18,12 @@ $(document).ready(function () {
 					slidesToShow: 1,
 					arrows: false
 				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+				}
 			}
 		]
 
