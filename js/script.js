@@ -24,6 +24,7 @@ $(document).ready(function () {
 				settings: {
 					arrows: false,
 				}
+
 			}
 		]
 

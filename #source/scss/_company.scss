@@ -73,7 +73,7 @@
 		width: 41px;
 		height: 41px;
 		border-radius: 50%;
-		background: $dark url("../../images/system_img/logo-up.svg") center no-repeat;
+		background: $dark url("../images/system_img/logo-up.svg") center no-repeat;
 		font-size: 0;
 		position: absolute;
 		top: 40%;
@@ -304,7 +304,7 @@
 .slick-slide {
 	.company {
 		padding: 72px 10px 111px 10px;
-		background: url("../../images/system_img/bg-about.png") left bottom no-repeat;
+		background: url("../images/system_img/bg-about.png") left bottom no-repeat;
 		&__container {
 			max-width: 1250px;
 			margin: 0 auto;
@@ -378,7 +378,7 @@
 			width: 41px;
 			height: 41px;
 			border-radius: 50%;
-			background: $dark url("../../images/system_img/logo-up.svg") center no-repeat;
+			background: $dark url("../images/system_img/logo-up.svg") center no-repeat;
 			font-size: 0;
 			position: absolute;
 			top: 40%;
