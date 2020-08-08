@@ -1,8 +1,19 @@
 .scope {
 	padding: 102px 10px 149px 10px;
 	background: $dark url("../images/system_img/bg-scope.png") left 40px no-repeat;
+
+	@media (max-width: $sm) {
+		background: $dark;
+		color: #fff;
+		padding: 30px 10px 0 10px;
+	}
+
 	&__container {
 		display: flex;
+
+		@media (max-width: $md) {
+			flex-direction: column;
+		}
 	}
 
 	&__info {
@@ -12,10 +23,27 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
+
+		@media (max-width: $md) {
+			align-items: flex-start;
+			width: 455px;
+		}
+
+		@media (max-width: $sm) {
+			flex: 1 1 auto;
+			margin: 0;
+			padding: 0 0 0 0;
+			align-items: center;
+			width: 100%;
+		}
 	}
 
 	&__title {
 		max-width: 455px;
+
+		@media (max-width: $sm) {
+			max-width: 100%;
+		}
 	}
 
 	&__text {
@@ -26,6 +54,11 @@
 		line-height: 29px;
 		span {
 			font-weight: bold;
+		}
+		@media (max-width: $sm) {
+			align-self: center;
+			max-width: 100%;
+			margin: 20px 0 0 0;
 		}
 	}
 
@@ -50,7 +83,22 @@
 				background: url("../images/system_img/scope-btn.svg");
 				margin: 0 0 0 7px;
 				transform: translate(0, 2px);
+
+				@media (max-width: $sm) {
+					width: 9px;
+					background: url("../../images/system_img/btn-mini.svg") center / cover no-repeat;
+				}
 			}
+		}
+
+		@media (max-width: $md) {
+			align-self: flex-end;
+		}
+		@media (max-width: $sm) {
+			color: #fff;
+			border: 2px solid #fff;
+			align-self: center;
+			margin: 40px 0 0 0;
 		}
 	}
 
@@ -58,27 +106,69 @@
 		color: #fff;
 		flex: 0 1 50%;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
+
+		@media (max-width: $md) {
+			margin: 250px 0 0 0;
+			justify-content: center;
+		}
+
+		@media (max-width: $sm) {
+			margin: 100px 0 0 0;
+		}
 	}
 
 	&__items {
-		max-width: 400px;
+		max-width: 420px;
 	}
 
 	&__item {
+		margin: 0 0 65px 0;
+
+		&:last-child {
+			margin: 0;
+		}
 	}
 }
 
 .item-scope {
+	display: flex;
+
+	@media (max-width: 450px) {
+		flex-direction: column;
+		align-items: center;
+		padding: 5px;
+	}
+
 	&__img {
+		flex: 0 0 64px;
+
+		img {
+			max-width: 100%;
+		}
+
+		@media (max-width: 450px) {
+		}
 	}
 
 	&__body {
+		margin: 0 0 0 50px;
+		@media (max-width: 450px) {
+			margin: 10px 0 0 0;
+			text-align: center;
+		}
 	}
 
 	&__title {
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 37px;
 	}
 
 	&__text {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 29px;
+		margin: 3px 0 0 0;
 	}
 }
