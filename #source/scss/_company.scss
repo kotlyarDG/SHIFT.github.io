@@ -77,15 +77,22 @@
 		font-size: 0;
 		position: absolute;
 		top: 40%;
+		transition: 0.3s;
 
 		&.slick-prev {
 			transform: rotate(-90deg);
 			left: 0;
+			&:hover {
+				transform: rotate(-90deg) scale(1.05) translate(0, -5px);
+			}
 		}
 
 		&.slick-next {
 			transform: rotate(90deg);
 			right: 0;
+			&:hover {
+				transform: rotate(90deg) scale(1.05) translate(0, -5px);
+			}
 		}
 	}
 

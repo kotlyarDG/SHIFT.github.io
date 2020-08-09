@@ -61,10 +61,10 @@
 		position: absolute;
 		top: 20px;
 		right: 10px;
+		transition: 0.3s;
 
 		&:hover {
 			transform: translate(0, -5px);
-			transition: 0.3s;
 		}
 	}
 
@@ -102,6 +102,12 @@
 			line-height: 22px;
 
 			color: #ffffff;
+
+			transition: 0.3s;
+
+			&:hover {
+				transform: translate(0, -5px) scale(1.05);
+			}
 		}
 	}
 
